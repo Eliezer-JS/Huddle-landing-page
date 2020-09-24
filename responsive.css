@@ -1,0 +1,34 @@
+@media(max-width: 850px){
+    footer{
+        flex-direction: column;
+    }
+    footer .social{
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+    footer .social span{
+        margin-right: 10px;
+    }
+    footer .attribution{
+        order: 2;
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px){
+    body{
+        background-image: url("images/bg-mobile.svg");
+        background-position: top center;
+    }
+    section{
+        flex-direction: column;
+    }
+    section .illustration{
+        width: 100%;
+    }
+    section #content{
+        width: 100%;
+        text-align: center;
+    }
+}

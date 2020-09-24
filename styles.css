@@ -1,0 +1,105 @@
+@font-face{
+    font-family: Open-Sans;
+    src: 
+        url("fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: Poppins;
+    src: 
+        url("fonts/Poppins-Regular.ttf"),
+        url("fonts/Poppins-Medium.ttf"),
+        url("fonts/Poppins-Bold.ttf");
+    font-weight: normal,bold,medium;
+    font-style: normal;
+}
+@font-face{
+    font-family: Social;
+    src: url("fonts/socialMedia.ttf");
+    font-style: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: hsl(257, 40%, 49%) url(images/bg-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    max-width: 1440px;
+}
+
+* a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    margin-top: 3rem;
+}
+
+section{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+section .illustration{
+    width: 55%;
+}
+section .illustration img{
+    width: 100%;
+}
+section #content{
+    width: 40%;
+}
+
+#content h1{
+    font-family: Poppins;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#content p{  
+    line-height: 26px;
+    text-align: left;
+    font-family: Open-Sans;
+    margin-bottom: 3rem;
+}
+
+#content a{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+    font-size: 18px;
+    font-family: Open-Sans;
+    box-shadow: 2px 4px 4px hsl(257, 40%, 30%);
+}
+
+footer{
+    display: flex;
+    margin-top: 2rem;
+    height: auto;
+}
+footer p{
+    width: 80%;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    width: 20%;  
+    justify-content: space-around;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Social;
+    /*https://www.dafont.com/es/social-media.font*/
+}
+.social a{
+    color: white;
+}
